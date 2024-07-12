@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishiram - Portfolio</title>
+    <!---Logo-->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/rishiram.png"
+    />
+    <!--Box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="./images/rishiram.png" target="_blank">
+        <img src="./images/rishiram.png" alt="logo" class="headerimg" />
+      </a>
+      <a href="#home" class="logo"> Rishiram</a>
+
+      <i class="bx bx-menu" id="menu-item"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#protfolio">Portfolio</a>
+      </nav>
+    </header>
+
+    <!--Home section design-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It,s me</h3>
+        <h1>Rishiram Katwal</h1>
+        <h3>And i am a <span class="multiText"></span></h3>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/rramKatwal24"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="mailto: rramkatwal24@gmail.com"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/rishiram-katwal-a7b134263/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="tel:+9779861334033"><i class="bx bxs-phone-call"></i></a>
+          <a href="https://github.com/rramKatwal"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a href="./CV/Rishiram Katwal_Resume.pdf" class="btn" download
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="./images/me.png" alt="rram" />
+      </div>
+    </section>
+
+    <!--About page design-->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/rishiram.jpg" alt="rram" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full stack Developer!</h3>
+        <p>
+          I am a Full-Stack Developer (MERN) specializing in technologies like
+          Node.js, Express, MongoDB, and React. My focus on clean code and
+          server-side architecture allows me to create efficient and reliable
+          web applications. I like to play with things and learn new things to
+          keep me updated and Passionate about problem-solving.
+        </p>
+      </div>
+    </section>
+
+    <!-- Protfolo section design -->
+
+    <section class="protfolio" id="protfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="protfolio-content">
+        <div class="protfolio-box">
+          <img
+            src="./images/project1.png"
+            alt="Authentication"
+            height="320px"
+          />
+          <div class="protfolio-layer">
+            <h4>MERN Authentication</h4>
+            <br />
+            <p>
+              It generally focuses on MERN CURD operations, including image
+              upload,rest password, otp verification , password encryption as
+              well.
+            </p>
+            <p>
+              It involves technology like redux toolkit, multer,nodemailer, MERN
+              itself.
+            </p>
+            <a href="https://mern-auth-6gxt.onrender.com/" target="_blank">
+              <i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <img src="./images/project2.png" alt="Socialmedia" height="320px" />
+          <div class="protfolio-layer">
+            <h4>MERN Socialmedia</h4>
+            <br />
+            <p>
+              It is kind of similar to facebook. It has all the function
+              required like uploading posts, like, comment,profile edit delete.
+            </p>
+            <p>
+              It involves technology like redux toolkit, multer, MERN itself.
+            </p>
+            <a
+              href="https://mern-socialmedia-8oe2.onrender.com/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="protfolio-box">
+          <img src="./images/project3.jpg" alt="" height="320px" />
+          <div class="protfolio-layer">
+            <h4>Web design</h4>
+            <p>Will be updated</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-iconTop">
+        <abbr title="Go to Home Page"
+          ><a href="#home"><i class="bx bx-up-arrow-alt"></i></a
+        ></abbr>
+      </div>
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Rishiram Katwal | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed.js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="index.js"></script>
+  </body>
+</html>
